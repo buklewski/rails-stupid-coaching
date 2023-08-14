@@ -3,4 +3,10 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+
+  #   👇 path   controller👇  👇 controller action // view page
+  get "/ask", to: "questions#ask"
+  # get "/path", to: "controller#action"
+
+  get "/answer", to: "questions#answer"
 end

@@ -1,0 +1,9 @@
+<%# display the question you ask your coach %>
+<%# display his answer %>
+
+<h1>Stupid Coaching</h1>
+<h3><%= @question %></h3>
+<p>–– <em>You</em></p>
+<h3><%= @answer %></h3>
+<p>–– <em>Coach</em></p>
+<%= link_to "Ask a new question", ask_path %>
